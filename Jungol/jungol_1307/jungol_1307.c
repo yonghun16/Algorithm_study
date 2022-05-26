@@ -20,7 +20,7 @@ int main(void)
 
     for(i=n-1; i>=0; i--) {
         for (j=n-1; j>=0; j--) {
-            printf("%c ", a[i][i]);
+            printf("%c ", a[j][i]);
         }
         printf("\n");
     }
