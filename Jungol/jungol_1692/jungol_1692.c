@@ -8,7 +8,7 @@ int main (void)
     printf("%d\n", (b%10)*a );
     printf("%d\n", ((b/10) %10)*a );
     printf("%d\n", ((b/100) %10)*a );
-    printf("%d\n", a*b)
+    printf("%d\n", a*b);
 
     return 0;
 }
