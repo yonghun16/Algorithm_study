@@ -30,10 +30,11 @@ int main (void)
                 printf("\n");
             }
         }
+        break;
         case 3 :
         for ( i = 1; i <= n; i++) {
-            c = i;
-            for ( j = 1; j <= n; j++) {
+            c = 0;
+            for ( j = 0; j < n; j++) {
                 printf("%d ", c=c+i);
             }
             printf("\n");
