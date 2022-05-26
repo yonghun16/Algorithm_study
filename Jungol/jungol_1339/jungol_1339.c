@@ -2,8 +2,7 @@
 
 int main(void)
 {
-    int i,j,k;
-    int arr[100][100];
+    int i, j;
 
     int N;
     scanf("%d", &N);
@@ -13,11 +12,7 @@ int main(void)
         return 0;
     }
 
-    for(i=0;i < N;i++){
-        for(j=0;j < N;j++){
-            arr[i][j] = 0;
-        }
-    }
+    int arr[100][100] = { 0, };
 
     char a = 'A';
 
