@@ -18,7 +18,7 @@ int main(void)
         }
     }
 
-    if(cnt) printf("%d\n", cnt);
+    if(flag) printf("%d\n", flag);
     else printf("%d\n", 0);
 
     return 0;
