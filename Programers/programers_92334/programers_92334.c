@@ -6,7 +6,7 @@
 int solution(int numbers[], size_t numbers_len) {
     int answer = 0;
     int check_numbers[10] = { 0, };
-    
+
     for(int i=0; i<numbers_len; i++) {
         check_numbers[numbers[i]]++;
     }
@@ -20,7 +20,7 @@ int solution(int numbers[], size_t numbers_len) {
 }
 
 int main(void) {
-    int numbers[] = {1,2,3,4,6,7,8,0};
+    int numbers[] = { 1, 2, 3, 4, 6, 7, 8, 0 };
     int numbers_len = sizeof(numbers)/sizeof(numbers[0]);
     printf("%d\n", solution(numbers, numbers_len));
 }
